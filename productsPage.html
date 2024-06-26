@@ -91,7 +91,11 @@
         <div class="product">
 
             <!-- Shopify Buy Button embed code starts here -->
-            <div id='product-component-1719278911290'></div>
+
+
+
+
+            <div id='product-component-1719433027864'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -120,41 +124,25 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '8528733962490',
-        node: document.getElementById('product-component-1719278911290'),
+        node: document.getElementById('product-component-1719433027864'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
           "margin-bottom": "50px"
-        },
-        "text-align": "left"
-      },
-      "title": {
-        "font-size": "26px"
-      },
-      "price": {
-        "font-size": "18px"
-      },
-      "compareAt": {
-        "font-size": "15.299999999999999px"
-      },
-      "unitPrice": {
-        "font-size": "15.299999999999999px"
+        }
       }
     },
-    "layout": "horizontal",
+    "buttonDestination": "modal",
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "description": true
+      "options": false
     },
-    "width": "100%",
     "text": {
-      "button": "Add to cart"
+      "button": "View product"
     }
   },
   "productSet": {
@@ -169,9 +157,7 @@
   "modalProduct": {
     "contents": {
       "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true
+      "imgWithCarousel": true
     },
     "styles": {
       "product": {
@@ -180,30 +166,6 @@
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
-      },
-      "title": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "bold",
-        "font-size": "26px",
-        "color": "#4c4c4c"
-      },
-      "price": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "18px",
-        "color": "#4c4c4c"
-      },
-      "compareAt": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "15.299999999999999px",
-        "color": "#4c4c4c"
-      },
-      "unitPrice": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "font-size": "15.299999999999999px",
-        "color": "#4c4c4c"
       }
     },
     "text": {
@@ -215,7 +177,8 @@
     "text": {
       "total": "Subtotal",
       "button": "Checkout"
-    }
+    },
+    "popup": false
   },
   "toggle": {}
 },
@@ -225,6 +188,9 @@
 })();
 /*]]>*/
 </script>
+
+
+
             <!-- Shopify Buy Button embed code ends here -->
         </div>
         <div class="product">
